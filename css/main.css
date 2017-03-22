@@ -1,0 +1,114 @@
+body {
+  background: white;
+  padding-top: 20px;
+}
+
+/* Search Bar */
+
+form {
+  text-align: center;
+  background: white;
+}
+
+input {
+  width: 65%;
+  padding: 5px 5px;
+  margin: 10px auto;
+  border-color: #eee;
+  border-radius: 7px;
+}
+
+fieldset {
+  border: none;
+}
+/* image gallery */
+
+ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  display: block;
+  max-width: 780px;
+  text-align: center;
+}
+
+ul li {
+  display: inline-block;
+  margin: 10px;
+}
+
+ul li img {
+  width: 180px;
+  padding: 10px 0;
+}
+
+.imageGallery {
+  background: white;
+  padding-bottom: 20px;
+}
+
+.lb-data .lb-details {
+    width: 85%;
+    float: left;
+    text-align: center;
+    margin-left: 5px;
+    line-height: 1.5em;
+}
+
+/* Media Queries */
+
+@media (min-width: 768px) {
+  
+  fieldset {
+    display: block;
+    text-align: center;
+  }
+  
+  #filter {
+    max-width: 45%;
+  }
+
+  .lb-data .lb-number {
+    font-size: 15px;
+  }
+
+  .lb-data .lb-caption {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1em;
+  }
+
+  .lb-data .lb-details {
+    margin-left: 18px;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 1024px) {
+  ul {
+    max-width: 900px;
+  }
+
+  #filter {
+    max-width: 40%;
+  }
+
+  img {
+    margin: 0 10px;
+  
+  }
+
+  .lb-data .lb-number {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  .lb-data .lb-caption {
+    font-size: 22px;
+    line-height: 1.3em;
+  }
+
+  .lb-data .lb-details {
+    margin: 18px 0 0 25px;
+  }
+}
